@@ -1,8 +1,8 @@
-name: Hexlet Lint
+name: Hexlet-Lint
 on: [push]
 jobs:
   lint-repo:
-  runs-on: ubuntu-latest
-  steps:
-    - run: make install
-    - run: make lint
+    runs-on: ubuntu-latest
+    steps:
+      - run: make install
+      - run: make lint
