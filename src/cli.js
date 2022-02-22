@@ -1,9 +1,6 @@
-import readlineSync from 'readline-sync';
+import greetings from './greetings.js';
 
-function greetings() {
-  console.log('Welcome to the Brain Games!');
-  const name = readlineSync.question('May, I have your name?: ');
-  console.log(`Hello, ${name}`);
+function cli() {
+  greetings();
 }
-
-export default greetings;
+export default cli;
