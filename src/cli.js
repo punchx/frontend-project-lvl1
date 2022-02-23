@@ -1,6 +1,9 @@
-import greetings from './greetings.js';
+import greetings from './utils/greetings.js';
+import getName from './utils/getName.js';
 
 function cli() {
-  greetings();
+  const name = getName();
+  greetings(name);
 }
+
 export default cli;

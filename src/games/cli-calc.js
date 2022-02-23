@@ -1,6 +1,6 @@
-import getRandomNumber from './getRandomNumber.js';
-import calc from './calc.js';
-import question from './question.js';
+import getRandomNumber from '../utils/getRandomNumber.js';
+import calc from '../utils/calc.js';
+import question from '../utils/question.js';
 import game from './game.js';
 
 const operations = ['+', '-', '*'];

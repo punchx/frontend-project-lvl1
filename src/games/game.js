@@ -1,5 +1,5 @@
-import getName from './getName.js';
-import greetings from './greetings.js';
+import getName from '../utils/getName.js';
+import greetings from '../utils/greetings.js';
 
 function game(cb) {
   console.log('Welcome to the Brain Games!');
